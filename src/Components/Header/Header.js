@@ -24,9 +24,9 @@ const Header = () => {
       </div>
       <nav>
         <div className='burger-menu' onClick={updateMenu}>
-          <div className={burgerClass}> </div>
-          <div className={burgerClass}> </div>
-          <div className={burgerClass}> </div>
+          <div className={burgerClass}></div>
+          <div className={burgerClass}></div>
+          <div className={burgerClass}></div>
         </div>
       </nav>
 

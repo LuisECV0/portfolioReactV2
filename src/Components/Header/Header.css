@@ -32,7 +32,7 @@ nav {
 }
 
 .clicked:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-47deg) translate(-7px, 6px);
 }
 
 .clicked:nth-child(2) {
@@ -40,7 +40,7 @@ nav {
 }
 
 .clicked:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(47deg) translate(-5px, -7px);
 }
 
 .menu {
@@ -68,4 +68,31 @@ nav {
 
 .menu a:hover {
   background-color: #555;
+}
+ 
+@media (max-width: 768px) {
+  .burger-menu {
+    display: none; /* Ocultar el ícono de hamburguesa en dispositivos mayores a 768px */
+  }
+
+  #logo {
+    order: -1; /* Mover el logo al principio en dispositivos móviles */
+    margin-left: 10px; /* Agregar un pequeño margen al logo */
+  }
+}
+.burger-menu {
+  display: none; 
+}
+
+@media (max-width: 400px) {
+  .burger-menu {
+    display: block; /* Asegurar que el ícono de hamburguesa esté visible en dispositivos móviles */
+  }
+
+  #logo {
+    order: -1;
+    margin-left: 10px;
+  }
+
+  /* Resto de tus estilos para dispositivos móviles */
 }
