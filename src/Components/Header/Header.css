@@ -1,0 +1,71 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.burger-menu {
+  cursor: pointer;
+}
+
+.burger-bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.clicked:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.clicked:nth-child(2) {
+  opacity: 0;
+}
+
+.clicked:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 100%;
+  background-color: #333;
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menu.visible {
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
