@@ -1,12 +1,29 @@
-/* Estilos para el pie de página */
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
+.footer-section {
+  background-color: #343a40;
+  color: white;
+  padding: 60px 0;
+}
+
+.footer-section h5 {
+  color: #ffc107;
+}
+
+.list-unstyled {
+  padding: 0;
+  list-style: none;
+}
+
+.list-unstyled a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-unstyled a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #292b2c;
+  color: white;
+  padding: 10px 0;
+}
