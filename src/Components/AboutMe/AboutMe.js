@@ -1,26 +1,24 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import './AboutMe.css';
-import myPhoto from './faker.jpg';  // Reemplaza 'myPhoto.jpg' con el nombre de tu imagen
 
-const AboutMeSection = () => {
+const Presentation = () => {
   return (
-    <section className="about-me-section">
+    <div className="presentation">
       <Container>
         <Row>
-          <Col md={4} className="text-center">
-            <Image src={myPhoto} alt="My Photo" roundedCircle className="my-photo" />
+          <Col md={8} className="text-presentation">
+            <h1>I'm LuisCV</h1>
+            <p>I'm a frontend developer.</p>
+            <a href="./DOC/Luis-Castañeda-Vega.pdf" download="Luis-Castañeda-Vega.pdf">Download CV</a>
           </Col>
-          <Col md={8}>
-            <div className="description">
-              <h2>About Me</h2>
-              <p>¡Hola! Soy Luis, un apasionado desarrollador web.</p>
-            </div>
+          <Col md={4} className="circle-container">
+            <div className="circle"></div>
           </Col>
         </Row>
       </Container>
-    </section>
+    </div>
   );
 };
 
-export default AboutMeSection;
+export default Presentation;
