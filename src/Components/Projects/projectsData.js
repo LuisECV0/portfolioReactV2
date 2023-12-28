@@ -3,7 +3,7 @@ const projectsData = [
     id: 1,
     name: 'Proyecto 1',
     description: 'Descripción corta del Proyecto 1.',
-    image: './Ecommrece.png',
+    image: 'Ecommrece.png',
     detailsLink: '#',
   },
   {

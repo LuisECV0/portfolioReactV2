@@ -1,10 +1,23 @@
-/* Estilos para la sección "Sobre Mí" */
-.about-me {
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
-  
-  .about-me h2 {
-    color: #333;
-  }
-  
+.about-me-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.my-photo {
+  width: 200px;
+  height: 200px;
+}
+
+.description {
+  padding-left: 30px;
+}
+
+.description h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
